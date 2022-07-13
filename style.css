@@ -1,0 +1,304 @@
+*{
+    margin: 0px;
+    pad: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    top: 0px;
+    padding: 5px ;
+   
+
+}
+.navbar::before{
+    content: "";
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height: 72px;
+    width: 100%;
+
+    background-color: black;
+    opacity: 0.4;
+    z-index: -1;
+}
+.navbar img{
+    padding: 5px 5px;
+height: 52px;
+margin: 3px 6px;
+
+}
+.navbar ul{
+    display: flex;
+    
+    align-items: center;
+ justify-content: center; 
+}
+.navbar ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    padding:3px 3px ;
+    font-family: 'Bree Serif', serif;
+    /* list-style: none; */
+    
+}
+.navbar ul li a:hover{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding:3px 3px ;
+
+    /* list-style: none; */
+    
+}
+
+.item{
+    padding: 5px 8px;
+    list-style: none;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 95px;
+ 
+    height: 300px;
+    font-family: 'Bree Serif', serif;
+     color: white; 
+}
+.heading{
+     font-size: 50px;
+}
+.content{
+    padding: 7px;
+      
+}
+.button{
+    padding: 6px;
+    border-radius: 8px;
+    font-family: 'Bree Serif', serif;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(212, 71, 71);
+    font-size: 20px;
+ 
+
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.section1::before{
+    content: "";
+    position: absolute;
+    background: url('../bg1.jpg') no-repeat center center/cover ;
+    height: 480px;
+    width: 100%;
+    z-index: -1;
+    top:0px;
+    left:0px;
+    opacity: 0.8;
+}
+
+.heading1{
+     display: flex; 
+ justify-content: center;
+      font-size: 2.9em;
+      padding: 12px;
+      font-family: 'Bree Serif', serif;
+}
+.section2{
+    display: flex;
+     flex-direction: column;
+}
+.box{
+    display: flex;
+    padding: 6px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    border: 2px solid black;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    width: 32%;
+    border-radius: 16px;
+    background-color: rgb(192, 188, 188);
+       /* height: 50px;
+       width:50px; */
+}
+/* .box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(192, 188, 188);
+    padding: 10px 10px;
+    margin: 5px 5px;
+    font-family: 'Bree Serif', serif;
+    width: 32%;
+    border-radius: 16px;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(192, 188, 188);
+    padding: 10px 10px;
+    margin: 5px 5px;
+    font-family: 'Bree Serif', serif;
+    width: 32%;
+    border-radius: 16px;
+} */
+.box img{
+    display: flex;
+    justify-content: center;
+    height: 35%;
+    width: 35%;
+}
+
+.section3{
+    display: flex;
+     flex-direction: column;
+     position: relative;
+    
+    
+}
+.section3::before{
+    content: "";
+    position: absolute;
+    background: url('../bg.jpg')  no-repeat center center/cover ;
+    height: 227px;
+    width: 100%;
+    z-index: -2;
+    top:0px;
+    left:0px;
+    opacity: 0.3;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+      
+      justify-content: center;  
+    /* height: 200px;
+    width: 200px; */
+
+}
+.logo1 img{
+    height: 120px;
+    width: 120px;
+    padding: 8px 16px;
+}
+.logo2 img{
+    height: 120px;
+    width: 120px;
+    padding: 8px 16px;
+}
+.logo3 img{
+    height: 120px;
+    width: 120px;
+    padding: 8px 16px;
+}
+.logo4 img{
+    height: 120px;
+   
+    width: 200px;
+    padding: 8px 16px;
+}
+
+.heading3{
+    display: flex; 
+ justify-content: center;
+      font-size: 2.9em;
+      padding: 12px;
+      font-family: 'Bree Serif', serif;
+    
+}
+
+
+    .form{
+        display: flex;
+     flex-direction: column;
+      justify-content: center; 
+     align-items: center;
+   padding-bottom: 5px;
+  
+    }
+    .form1{
+        padding: 3px 3px;
+        font-family: 'Bree Serif', serif;
+        }
+
+        #name{
+            border: 2px solid gray;
+            border-radius: 5px;
+            font-family: 'Bree Serif', serif;
+            background-color: rgb(236, 230, 230);
+            color: black;
+            text-align: center;
+        }
+        #email{
+            border: 2px solid gray;
+            border-radius: 5px;
+            font-family: 'Bree Serif', serif;
+            background-color: rgb(236, 230, 230);
+            color: black;
+            text-align: center;
+        }
+        #contact{
+            border: 2px solid gray;
+            border-radius: 5px;
+            font-family: 'Bree Serif', serif;
+            background-color: rgb(236, 230, 230);
+            color: black;
+         /* margin-left: auto; */
+         text-align: center;
+        }
+        #address{
+            border: 2px solid gray;
+            border-radius: 5px;
+            font-family: 'Bree Serif', serif;
+            background-color: rgb(236, 230, 230);
+            color: black;
+            text-align: center;
+        }
+        .section4{
+            display: flex;
+             flex-direction: column;
+             position: relative;
+            }
+        .section4::before{
+            content: "";
+            position: absolute;
+            background: url('../contact.jpg') no-repeat center center/cover ;
+            height: 100%;
+            width: 100%;
+            z-index: -2;
+           
+            opacity: 0.5;
+        }
+        .footer{
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            background-color: black;
+            color: white;
+
+        }
